@@ -1,0 +1,14 @@
+d={101:"Nisarg",102:"Raj",103:"Jeet",104:"prithvi"}
+print(d)
+d1=d.copy()
+print(d1)
+print(d.get(101))
+print(d[103])
+print(d.keys())
+print(d.pop(103))
+print(d)
+print(d.popitem())
+print(d)
+d2={105:"netra",106:"vismay",107:"Sankalp"}
+d.update(d2)
+print(d)
